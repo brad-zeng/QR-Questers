@@ -19,6 +19,7 @@ We were able to learn about how to work with OpenCV and how to incorporate softw
 ## What's next for QR Questers?
 The possibility for the future of QR Questers includes applying the tracking algorithm to a variety of different objects. The implementation of the algorithm to track certain people could be utilized to transform the robot pets into interactive companions that playfully follow their owners, offering a new level of personalized entertainment and engagement. In terms of the application to agriculture, the tracking algorithm could be used in the drone to track the pests in the farm to provide the secure protection of the crops. 
 
+https://youtu.be/KaGnomAYAWM
 
 &nbsp;  
 &nbsp;  
