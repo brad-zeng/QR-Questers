@@ -1,3 +1,29 @@
+## Inspiration
+Automation is the future. Nowadays, everyone is rushing to automate processes that were done manually in the past. Your vacuums, your waiters and waitresses, and even your fridges are being automated. In many cases, automating something requires the automaton to follow a certain object. Thus, we decided to create an autonomous vehicle that detects and follows QR codes in real-time.
+
+## What it does
+Our autonomous vehicle detects and follows QR codes in real-time. It also stops if it’s about to crash into an obstacle.
+
+## How we built it
+We used OpenCV’s QR code detection model to detect QR codes with our camera and wrote an algorithm to move forward when it detects the QR code. The robot is able to identify the center coordinate of the QR code and adjusts itself to face straight to the QR code. We have ultrasonic sensors in the front of the car to detect the distance from walls and obstacles, so that the car can stop if it’s about to crash.
+
+## Challenges
+We had an Intel RealSense d435i depth camera that we really wanted to use for in-depth scans of a room, but we struggled to import specific Python packages into Raspberry Pi due to deprecated support of ROS and RealSense for the OS the Raspberry Pi was running on, and we spent a majority of the time researching how to make this work. At some point, we decided to give up on this idea and proceeded with the QR-guided autonomous vehicle. During the process of coding, we struggled to tune the code to increase the smoothness of the movement of the robot when turning, and also had trouble with the low quality of the camera.
+
+## Accomplishments that we're proud of
+We are proud that we were able to work around the given tools and increase the smoothness of the robot by just tweaking the algorithm and the setup of the bot. We also managed to end up with a very functional product while in a time crunch due to the time wasted trying to get the RealSense camera working, which is something to be proud of.
+
+## What we learned
+We were able to learn about how to work with OpenCV and how to incorporate software development into hardware. We also learned about some of the limitations of the Raspberry Pi, there’s only so much you can do with a $50 computer!
+
+## What's next for QR Questers?
+The possibility for the future of QR Questers includes applying the tracking algorithm to a variety of different objects. The implementation of the algorithm to track certain people could be utilized to transform the robot pets into interactive companions that playfully follow their owners, offering a new level of personalized entertainment and engagement. In terms of the application to agriculture, the tracking algorithm could be used in the drone to track the pests in the farm to provide the secure protection of the crops. 
+
+
+
+
+
+
 [distance_sensor]: https://www.sparkfun.com/products/15569
 [h_bridge]: https://www.sparkfun.com/products/315
 [jackson_innovation_studio]: https://mechse.illinois.edu/undergraduate/makerworks/jackson-innovation-studio
