@@ -24,6 +24,17 @@ The possibility for the future of QR Questers includes applying the tracking alg
 &nbsp;  
 &nbsp;  
 &nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
 
 [distance_sensor]: https://www.sparkfun.com/products/15569
 [h_bridge]: https://www.sparkfun.com/products/315
